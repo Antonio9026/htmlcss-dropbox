@@ -78,7 +78,7 @@ width: 40%;
 }
 /* regole corpo piani tariffari */
 .business-plan-container{
-    max-width: 900px;
+    max-width: 1024px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -149,11 +149,12 @@ padding-left: 20px;
 }
 /* regole corpo ufficio vendite */
 .ufficio-vendite-container{
-    width: 900px;
+    width: 1024px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     border:solid 1px black ;
+    margin-top: 40px;
  
 }
 .team-col{
@@ -161,7 +162,7 @@ padding-left: 20px;
 justify-content: center;
 align-items: center;
 border-bottom: solid 1px black;
-height: 30px;
+height: 40px;
 }
 .enterprise-container{
     min-height: 200px;
@@ -181,7 +182,7 @@ height: 30px;
 }
 /* <!--regole corpo partner dropbox --> */
 .partner-dropbox-container{
-    width: 80%;
+    width: 1024px;
     margin: 0 auto;
     padding-top: 150px;
     display: flex;
@@ -192,7 +193,7 @@ height: 30px;
     width: 600px;
 }
 .partner-dropbox-text{
-    width: 250px;
+    width: 450px;
     padding-top: 60px; 
 }
 .partner-dropbox-title{
@@ -200,4 +201,45 @@ height: 30px;
 }
 .partner-dropbox-paragraph{
     padding-bottom: 20px;  
+}
+/* <!--regole corpo dropbox business --> */
+.dropbox-business-container{
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 60px;
+   
+  
+}
+.row-dropbox{
+    width: 1024px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+  
+  
+     
+
+}
+.dropbox-business-title{
+    width: 100%;
+}
+.dropbox-col{
+    width: calc(100%/3);
+  
+}
+.dropbox-text{
+    width: 300px;
+}
+.dropbox-image{
+    width: 300px;
+}
+.dropbox-business-title{
+   
+    margin: 80px 0;
+}
+/* <!-- regole corpo titolo e interaziome dropbox business --> */
+.title-business{
+    width: 500px;
+    
+    margin-top: 150px ;
 }
