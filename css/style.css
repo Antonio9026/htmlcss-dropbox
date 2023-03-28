@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 
@@ -13,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     position: fixed;
+    z-index: 900;
     background-color: white;
 }
 
@@ -52,7 +56,7 @@
 }
 
 .main-title {
-
+    font-family: 'Open Sans', sans-serif;
     font-size: 90px;
     padding: 80px 300px;
 
@@ -73,9 +77,24 @@
 }
 
 .j-button {
+    width: 200px;
+    height: 40px;
     margin-top: 30px;
     margin-bottom: 30px;
+    border:#0061ff ;
+    background-color: #0061ff;
+    color: white;
+    font-size: 15px;
+
 }
+.j-link{
+    color: black;
+    text-decoration: none;
+}
+.fa-arrow-down{
+padding-top: 100px;
+font-size: 40px;
+}  
 
 .jumbotron-container-img {
     display: flex;
@@ -94,9 +113,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-
     gap: 10px;
-
 }
 
 .tariff-container {
@@ -110,15 +127,17 @@
 }
 
 .invoice-container {
+    width: 350px;
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
+    
 }
 
 
 .professional {
     border: solid 1px;
-    border-color: black;
+    border-color: #dadadd;
     width: 280px;
     min-height: 800px;
 
@@ -126,33 +145,84 @@
 }
 
 .single-container {
-    border-bottom: solid 1px;
+    border-bottom: solid 1px #dadadd;
     display: flex;
     justify-content: center;
-    align-self: center;
+    position: relative;
 }
 
 .single {
-    height: 30px;
 
-
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.fa-user{
+  font-size: 15px;
+  position: absolute;
+  left: 95px;
+  top: 12px;
+}
+.fa-users-medical{
+    font-size: 15px;
+    position: absolute;
+    left: 95px;
+    top: 12px;
+}
+.fa-building{
+    font-size: 15px;
+    position: absolute;
+    left: 95px;
+    top: 12px;
 }
 
 .tariff-plan {
-    margin-top: 30px;
-    padding-left: 20px;
-
+padding-top: 15px;
+  width: 230px;
+  margin: 0 auto;
+}
+.tariff-plan-item{
+    padding: 10px 0;
 }
 
 .offers-container {
-
-    margin-top: 50px;
-    padding-left: 20px;
+    padding-top: 45px;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+.offers-item{
+    padding: 10px 0;
+ 
 }
 
+.fa-folder{
+    position: absolute;
+    left: -20px;
+}
+.fa-share-nodes{
+    position: absolute;
+    left: -20px;
+}  
+
 .free-trial {
-    margin-top: 50px;
-    padding-left: 20px;
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.free-trial-button{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 30px;
+    border:#0061ff ;
+    background-color: #0061ff;
+    color: white;
+    font-size: 15px;   
+}
+.free-trial-link{
+    color: #0000ee;
 }
 
 .highlights {
@@ -162,12 +232,20 @@
 }
 
 .highlights-col {
+    width: 230px;
+    margin: 0 auto;
     margin-top: 40px;
     list-style-type: none;
 }
 
 .highlights-item {
     margin-top: 10px;
+    position: relative;
+}
+.fa-check{
+    position: absolute;
+    left: -15px;
+    color:#0061ff ;
 }
 
 /* regole corpo ufficio vendite */
@@ -176,7 +254,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border: solid 1px black;
+    border: solid 1px #dadadd;
     margin-top: 40px;
 
 }
@@ -185,7 +263,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px #dadadd;
     height: 40px;
 }
 
@@ -200,6 +278,15 @@
     width: 60%;
 
 }
+.enterprise-button{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 30px;
+    border:#0061ff ;
+    background-color: #0061ff;
+    color: white;
+    font-size: 15px;    
+}
 
 .enterprise-title {
     margin-bottom: 10px;
@@ -207,6 +294,12 @@
 
 .contact-title {
     margin-bottom: 40px;
+    position: relative;
+}
+#fa-building-font{
+    position: absolute;
+    bottom:100px;
+    left: 100px;
 }
 
 /* <!--regole corpo partner dropbox --> */
@@ -224,7 +317,7 @@
 }
 
 .partner-dropbox-text {
-    width: 450px;
+    width: 300px;
     padding-top: 60px;
 }
 
@@ -234,6 +327,15 @@
 
 .partner-dropbox-paragraph {
     padding-bottom: 20px;
+    font-size: 19px;
+}
+.partner-dropbox-button{
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    border:solid 1px black;
+  
+    font-size: 15px;  
 }
 
 /* <!--regole corpo dropbox business --> */
@@ -280,10 +382,10 @@
 
 /* <!-- regole corpo titolo e interaziome dropbox business --> */
 .title-business-container {
-   
+
     width: 500px;
     margin-top: 150px;
-  
+
 }
 
 .title-business {
@@ -306,12 +408,14 @@
 .designit-text-container {
     width: calc(100%/3);
     height: 600px;
+    overflow: auto;
 }
 
 .designit-text-col {
     margin-top: 40px;
     margin-left: 40px;
     width: 460px;
+   
 }
 
 .trade-mark-text {
@@ -411,7 +515,7 @@
 .wbr-logo-col {
     width: calc(100%/2);
     height: 300px;
-    background-color:#d5001f ;
+    background-color: #d5001f;
     position: relative;
 }
 
@@ -423,16 +527,16 @@
 }
 
 .bp-logo-col {
-    width: calc(100%/2 );
+    width: calc(100%/2);
     height: 300px;
-    background-color:#0d2481;
+    background-color: #0d2481;
     position: relative;
 }
 
 .cc-logo-col {
     width: calc(100%/2);
     height: 300px;
-    background-color:#ffd830 ;
+    background-color: #ffd830;
     position: relative;
 }
 
@@ -467,45 +571,101 @@
     top: 30%;
     left: 30%;
 }
+
 /* <!--  regole corpo Dropbox nella tua azienda --> */
-.azienda-cotainer{
+.azienda-cotainer {
     width: 100%;
-    height: 300px; 
+    height: 300px;
     background-color: #b4d0e7;
     padding-top: 100px;
 }
-.azienda-col{
+
+.azienda-col {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     position: relative;
-    
+
 }
-.azienda-title{
+
+.azienda-title {
     width: 500px;
     position: absolute;
     left: 22%;
-   font-size: 20px;
-  
+    font-size: 20px;
+
 }
-.azienda-button{
-  width: 250px; 
-  position: absolute;
-  right: 25%; 
+.azienda-main-title{
+    color:#61082b ;
 }
+
+.azienda-button {
+    width: 250px;
+    position: absolute;
+    right: 25%;
+}
+.azienda-button-item{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 30px;
+    border:#0061ff ;
+    background-color: #0061ff;
+    color: white;
+    font-size: 15px;    
+}
+
 /* <!--regole corpo domande frequenti --> */
-.frequent-questins{
+.frequent-questins {
     width: 55%;
-    
+
     margin: 0 auto;
+
+}
+
+.faq-col {
+    margin-top: 150px;
+    font-size: 20px;
+    list-style-type: none;
+
+}
+
+.faq-li-item {
+    padding: 40px 0;
+    border-bottom: solid 1px black;
+    position: relative;
+}
+.fa-chevron-down{
+position: absolute;
+right: 50px;
+font-size: 15px;
+}
+/* <!--regole copro lista interattiva Dropbox --> */
+footer {
+    height: 600px;
+    background-color: black;
+    margin-top: 150px;
+    color: white;
+    font-size: 20px;
+    
    
 }
-.faq-col{
-   margin-top: 150px;
-   font-size: 20px;
-   list-style-type: none;
-  
+.iteract-container{
+    width: 80%;
+    margin: 0 auto ;
+ display: flex;
+ justify-content: center;
+ justify-content: space-evenly;
 }
-.faq-li-item{
-    padding:40px 0 ;
-    border-bottom: solid 1px black;
+.interact-col{  
+    padding: 100px 0;  
+}
+.interact-list{
+    margin-top: 40px;
+}
+.interact-li{
+   list-style-type: none; 
+   padding: 10px 0;
+}
+.interact-item{
+    text-decoration: none;
+   color: white;
 }
