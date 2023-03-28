@@ -46,9 +46,9 @@ body{
 .h-interaction {
     text-decoration: none;
     color: black;
-    /* regole titolo e jumbotron */
+   
 }
-
+/* regole titolo e jumbotron */
 .jumbotron-container {
     display: flex;
     flex-direction: column;
@@ -447,6 +447,10 @@ padding-top: 15px;
     height: 300px;
     background-color: #a2d39b;
     position: relative;
+    transition: all ease-in;
+}
+.designit-logo-col:hover{
+border: 10px solid #d1e9cd ;
 }
 
 .asu-logo-col {
@@ -454,6 +458,10 @@ padding-top: 15px;
     height: 300px;
     background-color: #61082b;
     position: relative;
+    transition: all ease-in;
+}
+.asu-logo-col:hover{
+    border: 10px solid #d1e9cd ;
 }
 
 .uof-logo-col {
@@ -461,15 +469,21 @@ padding-top: 15px;
     height: 300px;
     background-color: #0093ce;
     position: relative;
+    transition: all ease-in;
 }
-
+.uof-logo-col:hover{
+    border: 10px solid #d1e9cd ;
+}
 .topps-logo-col {
     width: calc(100%/2);
     height: 300px;
     background-color: #ff1c1c;
     position: relative;
+    transition: all ease-in;
 }
-
+.topps-logo-col:hover {
+    border: 10px solid #d1e9cd ;
+}
 .designit-logo {
     width: 100px;
     height: 100px;
@@ -517,29 +531,41 @@ padding-top: 15px;
     height: 300px;
     background-color: #d5001f;
     position: relative;
+    transition: all ease-in;
 }
-
+.wbr-logo-col:hover{
+    border: 10px solid #d1e9cd ;   
+}
 .hc-logo-col {
     width: calc(100%/2);
     height: 300px;
     background-color: #b4d0e7;
     position: relative;
+    transition: all ease-in;
 }
-
+.hc-logo-col:hover{
+    border: 10px solid #d1e9cd ;
+}
 .bp-logo-col {
     width: calc(100%/2);
     height: 300px;
     background-color: #0d2481;
     position: relative;
+    transition: all ease-in;
 }
-
+.bp-logo-col:hover{
+    border: 10px solid #d1e9cd ;
+}
 .cc-logo-col {
     width: calc(100%/2);
     height: 300px;
     background-color: #ffd830;
     position: relative;
+    transition: all ease-in;
 }
-
+.cc-logo-col:hover{
+    border: 10px solid #d1e9cd ;
+}
 .wbr-logo {
     width: 100px;
     height: 100px;
