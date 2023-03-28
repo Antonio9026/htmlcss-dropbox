@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 
 
 /* regole header */
-.logo-container{
+.logo-container {
     width: 100%;
     height: 80px;
     display: flex;
@@ -15,173 +15,202 @@
     position: fixed;
     background-color: white;
 }
-.logo-left{
-    width: 30% ;
+
+.logo-left {
+    width: 30%;
     display: flex;
     justify-content: space-around;
     align-self: center;
- 
+
 }
-.logo-right{
-    width: 25% ;
+
+.logo-right {
+    width: 25%;
     display: flex;
     justify-content: space-around;
     align-self: center;
-   
+
 }
-.logo-text-left{
+
+.logo-text-left {
     width: 70%;
     display: flex;
     justify-content: space-around;
     align-self: center;
 }
-.h-interaction{
-text-decoration: none;
-color: black;
-/* regole titolo e jumbotron */
+
+.h-interaction {
+    text-decoration: none;
+    color: black;
+    /* regole titolo e jumbotron */
 }
-.jumbotron-container{
+
+.jumbotron-container {
     display: flex;
     flex-direction: column;
-    background-color:#b4d0e7 ;
+    background-color: #b4d0e7;
 }
-.main-title{
+
+.main-title {
 
     font-size: 90px;
     padding: 80px 300px;
-  
-  
-}
-.jumbotron{
-display: flex;
-width: 100%;
-justify-content: center;
+
 
 }
-.jumbotron-text{
-width:25%;
-font-size: 20px;
-margin-top: 5px;
+
+.jumbotron {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
 }
-.j-button{
-    margin-top:30px ;
+
+.jumbotron-text {
+    width: 25%;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.j-button {
+    margin-top: 30px;
     margin-bottom: 30px;
 }
-.jumbotron-container-img{
-display: flex;
-width: 40%;
+
+.jumbotron-container-img {
+    display: flex;
+    width: 40%;
 
 }
-.jumbotron-image{
-  
+
+.jumbotron-image {
+
     width: 800px;
 }
+
 /* regole corpo piani tariffari */
-.business-plan-container{
+.business-plan-container {
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    
-    gap: 10px;
-    
-}
-.tariff-container{
-    display: flex;  
-    justify-content: space-between; 
-}   
 
-.plane-container{
-    width: 46%;
-    padding-top:  80px ;
+    gap: 10px;
+
 }
-.invoice-container{
+
+.tariff-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plane-container {
+    width: 46%;
+    padding-top: 80px;
+}
+
+.invoice-container {
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
 }
 
 
-.professional{
+.professional {
     border: solid 1px;
     border-color: black;
     width: 280px;
     min-height: 800px;
-    
-   
+
+
 }
-.single-container{
+
+.single-container {
     border-bottom: solid 1px;
     display: flex;
     justify-content: center;
     align-self: center;
 }
-.single{
+
+.single {
     height: 30px;
-    
-    
-}
-.tariff-plan{
-margin-top:30px ;
-padding-left: 20px;
+
 
 }
-.offers-container{
 
-    margin-top:50px ;
+.tariff-plan {
+    margin-top: 30px;
+    padding-left: 20px;
+
+}
+
+.offers-container {
+
+    margin-top: 50px;
     padding-left: 20px;
 }
-.free-trial{
-    margin-top:50px ;
+
+.free-trial {
+    margin-top: 50px;
     padding-left: 20px;
 }
-.highlights{
+
+.highlights {
     min-height: 400px;
-    margin-top:70px ;
-    padding-left: 20px;  
+    margin-top: 70px;
+    padding-left: 20px;
 }
-.highlights-col{
+
+.highlights-col {
     margin-top: 40px;
     list-style-type: none;
 }
-.highlights-item{
-    margin-top: 10px;  
+
+.highlights-item {
+    margin-top: 10px;
 }
+
 /* regole corpo ufficio vendite */
-.ufficio-vendite-container{
+.ufficio-vendite-container {
     width: 1024px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border:solid 1px black ;
+    border: solid 1px black;
     margin-top: 40px;
- 
+
 }
-.team-col{
+
+.team-col {
     display: flex;
-justify-content: center;
-align-items: center;
-border-bottom: solid 1px black;
-height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px black;
+    height: 40px;
 }
-.enterprise-container{
+
+.enterprise-container {
     min-height: 200px;
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
 }
-.enterprise-col{
+
+.enterprise-col {
     width: 60%;
-   
+
 }
-.enterprise-title{
+
+.enterprise-title {
     margin-bottom: 10px;
 }
-.contact-title{
-    margin-bottom: 40px;  
+
+.contact-title {
+    margin-bottom: 40px;
 }
+
 /* <!--regole corpo partner dropbox --> */
-.partner-dropbox-container{
+.partner-dropbox-container {
     width: 1024px;
     margin: 0 auto;
     padding-top: 150px;
@@ -189,57 +218,294 @@ height: 40px;
     justify-content: center;
     gap: 80px;
 }
-.partner-dropbox-image{
+
+.partner-dropbox-image {
     width: 600px;
 }
-.partner-dropbox-text{
+
+.partner-dropbox-text {
     width: 450px;
-    padding-top: 60px; 
+    padding-top: 60px;
 }
-.partner-dropbox-title{
+
+.partner-dropbox-title {
     margin-bottom: 20px;
 }
-.partner-dropbox-paragraph{
-    padding-bottom: 20px;  
+
+.partner-dropbox-paragraph {
+    padding-bottom: 20px;
 }
+
 /* <!--regole corpo dropbox business --> */
-.dropbox-business-container{
+.dropbox-business-container {
     width: 1024px;
     margin: 0 auto;
     padding-top: 60px;
-   
-  
-}
-.row-dropbox{
-    width: 1024px;
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
-  
-  
-     
+
 
 }
-.dropbox-business-title{
+
+.row-dropbox {
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.dropbox-business-title {
     width: 100%;
 }
-.dropbox-col{
+
+.dropbox-col {
     width: calc(100%/3);
-  
+
 }
-.dropbox-text{
+
+.dropbox-text {
     width: 300px;
 }
-.dropbox-image{
+
+.dropbox-image {
     width: 300px;
 }
-.dropbox-business-title{
-   
+
+.dropbox-business-title {
+
     margin: 80px 0;
 }
+
 /* <!-- regole corpo titolo e interaziome dropbox business --> */
-.title-business{
+.title-business-container {
+   
     width: 500px;
+    margin-top: 150px;
+  
+}
+
+.title-business {
+    padding-bottom: 50px;
+}
+
+/* <!--regole corpo Designit section --> */
+
+.designit-container {
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    margin-top: 150px;
+
+}
+
+/* <!--  regole corpo centrale della sezione --> */
+
+.designit-text-container {
+    width: calc(100%/3);
+    height: 600px;
+}
+
+.designit-text-col {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 460px;
+}
+
+.trade-mark-text {
+    display: flex;
+    margin-top: 60px;
+}
+
+.mention {
+    margin-top: 40px;
+}
+
+.designit-trade-mark {
+    width: 200px;
+}
+
+
+/* regole immagini design text container (image-left) */
+.image-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(100%/3);
+    height: 600px;
+
+}
+
+.designit-logo-col {
+    width: calc(100%/2);
+    height: 300px;
+    background-color: #a2d39b;
+    position: relative;
+}
+
+.asu-logo-col {
+    width: calc(100%/2);
+    height: 300px;
+    background-color: #61082b;
+    position: relative;
+}
+
+.uof-logo-col {
+    width: calc(100%/2);
+    height: 300px;
+    background-color: #0093ce;
+    position: relative;
+}
+
+.topps-logo-col {
+    width: calc(100%/2);
+    height: 300px;
+    background-color: #ff1c1c;
+    position: relative;
+}
+
+.designit-logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.asu-logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.uof-logo {
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.topps-logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+/* regole immagini design text container (image-right) */
+.image-right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(100%/3);
+    height: 600px;
+}
+
+.wbr-logo-col {
+    width: calc(100%/2);
+    height: 300px;
+    background-color:#d5001f ;
+    position: relative;
+}
+
+.hc-logo-col {
+    width: calc(100%/2);
+    height: 300px;
+    background-color: #b4d0e7;
+    position: relative;
+}
+
+.bp-logo-col {
+    width: calc(100%/2 );
+    height: 300px;
+    background-color:#0d2481;
+    position: relative;
+}
+
+.cc-logo-col {
+    width: calc(100%/2);
+    height: 300px;
+    background-color:#ffd830 ;
+    position: relative;
+}
+
+.wbr-logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.hc-logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.lp-logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.cco-logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+/* <!--  regole corpo Dropbox nella tua azienda --> */
+.azienda-cotainer{
+    width: 100%;
+    height: 300px; 
+    background-color: #b4d0e7;
+    padding-top: 100px;
+}
+.azienda-col{
+    display: flex;
+    justify-content: space-around; 
+    position: relative;
     
-    margin-top: 150px ;
+}
+.azienda-title{
+    width: 500px;
+    position: absolute;
+    left: 22%;
+   font-size: 20px;
+  
+}
+.azienda-button{
+  width: 250px; 
+  position: absolute;
+  right: 25%; 
+}
+/* <!--regole corpo domande frequenti --> */
+.frequent-questins{
+    width: 55%;
+    
+    margin: 0 auto;
+   
+}
+.faq-col{
+   margin-top: 150px;
+   font-size: 20px;
+   list-style-type: none;
+  
+}
+.faq-li-item{
+    padding:40px 0 ;
+    border-bottom: solid 1px black;
 }
