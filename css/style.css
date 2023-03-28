@@ -448,6 +448,7 @@ padding-top: 15px;
     background-color: #a2d39b;
     position: relative;
     transition: all ease-in;
+   
 }
 .designit-logo-col:hover{
 border: 10px solid #d1e9cd ;
@@ -459,6 +460,7 @@ border: 10px solid #d1e9cd ;
     background-color: #61082b;
     position: relative;
     transition: all ease-in;
+   
 }
 .asu-logo-col:hover{
     border: 10px solid #d1e9cd ;
@@ -470,6 +472,7 @@ border: 10px solid #d1e9cd ;
     background-color: #0093ce;
     position: relative;
     transition: all ease-in;
+  
 }
 .uof-logo-col:hover{
     border: 10px solid #d1e9cd ;
@@ -480,6 +483,7 @@ border: 10px solid #d1e9cd ;
     background-color: #ff1c1c;
     position: relative;
     transition: all ease-in;
+    
 }
 .topps-logo-col:hover {
     border: 10px solid #d1e9cd ;
@@ -490,6 +494,8 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
+    hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 .asu-logo {
@@ -498,6 +504,8 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
+    hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 .uof-logo {
@@ -507,6 +515,8 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
+    hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 .topps-logo {
@@ -515,6 +525,8 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
+    hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 /* regole immagini design text container (image-right) */
@@ -572,6 +584,8 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
+    hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 .hc-logo {
@@ -580,6 +594,8 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
+    hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 .lp-logo {
@@ -588,6 +604,8 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
+    hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 .cco-logo {
@@ -596,6 +614,8 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
+    hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 /* <!--  regole corpo Dropbox nella tua azienda --> */
