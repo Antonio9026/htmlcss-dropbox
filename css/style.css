@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -28,14 +29,6 @@ body{
 
 }
 
-.logo-right {
-    width: 25%;
-    display: flex;
-    justify-content: space-around;
-    align-self: center;
-
-}
-
 .logo-text-left {
     width: 70%;
     display: flex;
@@ -43,11 +36,40 @@ body{
     align-self: center;
 }
 
+.logo-right {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+
+}
+
+.logo-text-right {
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.logo-right-button {
+    width: 70px;
+    height: 30px;
+    border: #0061ff;
+    background-color: #0061ff;
+    color: white;
+    font-size: 15px;
+
+}
+.fa-arrow-down{
+    color: black;
+}
 .h-interaction {
     text-decoration: none;
     color: black;
-   
+
 }
+
 /* regole titolo e jumbotron */
 .jumbotron-container {
     display: flex;
@@ -67,12 +89,12 @@ body{
     display: flex;
     width: 100%;
     justify-content: center;
-
+    position: relative;
 }
 
 .jumbotron-text {
     width: 25%;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 5px;
 }
 
@@ -81,20 +103,22 @@ body{
     height: 40px;
     margin-top: 30px;
     margin-bottom: 30px;
-    border:#0061ff ;
+    border: #0061ff;
     background-color: #0061ff;
     color: white;
     font-size: 15px;
 
 }
-.j-link{
+
+.j-link {
     color: black;
     text-decoration: none;
 }
-.fa-arrow-down{
-padding-top: 100px;
-font-size: 40px;
-}  
+
+.fa-arrow-down {
+    padding-top: 100px;
+    font-size: 40px;
+}
 
 .jumbotron-container-img {
     display: flex;
@@ -103,8 +127,9 @@ font-size: 40px;
 }
 
 .jumbotron-image {
-
     width: 800px;
+    position: absolute;
+
 }
 
 /* regole corpo piani tariffari */
@@ -122,18 +147,19 @@ font-size: 40px;
 }
 
 .plane-container {
-    width: 46%;
-    padding-top: 80px;
+    padding-top: 150px;
 }
 
 .invoice-container {
-    width: 350px;
+    width: 450px;
     display: flex;
-    justify-content: space-between;
-    padding: 40px 0;
-    
+    padding: 80px 0;
+
 }
 
+.invoice-col {
+    padding-left: 20px;
+}
 
 .professional {
     border: solid 1px;
@@ -156,22 +182,25 @@ font-size: 40px;
     height: 40px;
     display: flex;
     align-items: center;
-    
-    
+    position: relative;
+
 }
-.fa-user{
-  font-size: 15px;
-  position: absolute;
-  left: 95px;
-  top: 12px;
-}
-.fa-users-medical{
+
+#singolo-font {
     font-size: 15px;
     position: absolute;
-    left: 95px;
+    left: 90px;
     top: 12px;
 }
-.fa-building{
+
+.fa-people-group {
+    font-size: 15px;
+    position: absolute;
+    left: 90px;
+    top: 12px;
+}
+
+.fa-building {
     font-size: 15px;
     position: absolute;
     left: 95px;
@@ -179,11 +208,12 @@ font-size: 40px;
 }
 
 .tariff-plan {
-padding-top: 15px;
-  width: 230px;
-  margin: 0 auto;
+    padding-top: 15px;
+    width: 230px;
+    margin: 0 auto;
 }
-.tariff-plan-item{
+
+.tariff-plan-item {
     padding: 10px 0;
 }
 
@@ -193,35 +223,45 @@ padding-top: 15px;
     margin: 0 auto;
     position: relative;
 }
-.offers-item{
+
+.offers-item {
     padding: 10px 0;
- 
+
 }
 
-.fa-folder{
+#offers-font {
+    position: absolute;
+    left: -20px;
+    top: 55px;
+}
+
+.fa-folder {
     position: absolute;
     left: -20px;
 }
-.fa-share-nodes{
+
+.fa-share-nodes {
     position: absolute;
     left: -20px;
-}  
+}
 
 .free-trial {
     width: 230px;
     margin: 0 auto;
     margin-top: 80px;
 }
-.free-trial-button{
+
+.free-trial-button {
     width: 200px;
     height: 40px;
     margin-bottom: 30px;
-    border:#0061ff ;
+    border: #0061ff;
     background-color: #0061ff;
     color: white;
-    font-size: 15px;   
+    font-size: 15px;
 }
-.free-trial-link{
+
+.free-trial-link {
     color: #0000ee;
 }
 
@@ -236,16 +276,19 @@ padding-top: 15px;
     margin: 0 auto;
     margin-top: 40px;
     list-style-type: none;
+
 }
 
 .highlights-item {
     margin-top: 10px;
     position: relative;
 }
-.fa-check{
+
+.fa-check {
     position: absolute;
-    left: -15px;
-    color:#0061ff ;
+    left: -25px;
+    top: 5px;
+    color: #0061ff;
 }
 
 /* regole corpo ufficio vendite */
@@ -278,14 +321,15 @@ padding-top: 15px;
     width: 60%;
 
 }
-.enterprise-button{
+
+.enterprise-button {
     width: 200px;
     height: 40px;
     margin-bottom: 30px;
-    border:#0061ff ;
+    border: #0061ff;
     background-color: #0061ff;
     color: white;
-    font-size: 15px;    
+    font-size: 15px;
 }
 
 .enterprise-title {
@@ -296,9 +340,10 @@ padding-top: 15px;
     margin-bottom: 40px;
     position: relative;
 }
-#fa-building-font{
+
+#fa-building-font {
     position: absolute;
-    bottom:100px;
+    bottom: 100px;
     left: 100px;
 }
 
@@ -329,13 +374,14 @@ padding-top: 15px;
     padding-bottom: 20px;
     font-size: 19px;
 }
-.partner-dropbox-button{
+
+.partner-dropbox-button {
     width: 150px;
     height: 40px;
     margin-top: 40px;
-    border:solid 1px black;
-  
-    font-size: 15px;  
+    border: solid 1px black;
+
+    font-size: 15px;
 }
 
 /* <!--regole corpo dropbox business --> */
@@ -352,9 +398,6 @@ padding-top: 15px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-
-
 
 }
 
@@ -414,8 +457,9 @@ padding-top: 15px;
 .designit-text-col {
     margin-top: 40px;
     margin-left: 40px;
-    width: 460px;
-   
+    width: 350px;
+    overflow: auto;
+
 }
 
 .trade-mark-text {
@@ -445,13 +489,15 @@ padding-top: 15px;
 .designit-logo-col {
     width: calc(100%/2);
     height: 300px;
+
     background-color: #a2d39b;
     position: relative;
     transition: all ease-in;
-   
+
 }
-.designit-logo-col:hover{
-border: 10px solid #d1e9cd ;
+
+.designit-logo-col:active {
+    border: 10px solid #d1e9cd;
 }
 
 .asu-logo-col {
@@ -460,10 +506,11 @@ border: 10px solid #d1e9cd ;
     background-color: #61082b;
     position: relative;
     transition: all ease-in;
-   
+
 }
-.asu-logo-col:hover{
-    border: 10px solid #d1e9cd ;
+
+.asu-logo-col:active {
+    border: 10px solid #d1e9cd;
 }
 
 .uof-logo-col {
@@ -472,30 +519,33 @@ border: 10px solid #d1e9cd ;
     background-color: #0093ce;
     position: relative;
     transition: all ease-in;
-  
+
 }
-.uof-logo-col:hover{
-    border: 10px solid #d1e9cd ;
+
+.uof-logo-col:active {
+    border: 10px solid #d1e9cd;
 }
+
 .topps-logo-col {
     width: calc(100%/2);
     height: 300px;
     background-color: #ff1c1c;
     position: relative;
     transition: all ease-in;
-    
+
 }
-.topps-logo-col:hover {
-    border: 10px solid #d1e9cd ;
+
+.topps-logo-col:active {
+    border: 10px solid #d1e9cd;
 }
+
 .designit-logo {
     width: 100px;
     height: 100px;
     position: absolute;
     top: 30%;
     left: 30%;
-    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
-    hue-rotate(13deg) brightness(104%) contrast(118%);
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%) hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 .asu-logo {
@@ -504,8 +554,7 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
-    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
-    hue-rotate(13deg) brightness(104%) contrast(118%);
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%) hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 .uof-logo {
@@ -515,8 +564,7 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
-    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
-    hue-rotate(13deg) brightness(104%) contrast(118%);
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%) hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 .topps-logo {
@@ -525,8 +573,7 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
-    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
-    hue-rotate(13deg) brightness(104%) contrast(118%);
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%) hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 /* regole immagini design text container (image-right) */
@@ -545,9 +592,11 @@ border: 10px solid #d1e9cd ;
     position: relative;
     transition: all ease-in;
 }
-.wbr-logo-col:hover{
-    border: 10px solid #d1e9cd ;   
+
+.wbr-logo-col:active {
+    border: 10px solid #d1e9cd;
 }
+
 .hc-logo-col {
     width: calc(100%/2);
     height: 300px;
@@ -555,9 +604,11 @@ border: 10px solid #d1e9cd ;
     position: relative;
     transition: all ease-in;
 }
-.hc-logo-col:hover{
-    border: 10px solid #d1e9cd ;
+
+.hc-logo-col:active {
+    border: 10px solid #d1e9cd;
 }
+
 .bp-logo-col {
     width: calc(100%/2);
     height: 300px;
@@ -565,9 +616,11 @@ border: 10px solid #d1e9cd ;
     position: relative;
     transition: all ease-in;
 }
-.bp-logo-col:hover{
-    border: 10px solid #d1e9cd ;
+
+.bp-logo-col:active {
+    border: 10px solid #d1e9cd;
 }
+
 .cc-logo-col {
     width: calc(100%/2);
     height: 300px;
@@ -575,17 +628,18 @@ border: 10px solid #d1e9cd ;
     position: relative;
     transition: all ease-in;
 }
-.cc-logo-col:hover{
-    border: 10px solid #d1e9cd ;
+
+.cc-logo-col:active {
+    border: 10px solid #d1e9cd;
 }
+
 .wbr-logo {
     width: 100px;
     height: 100px;
     position: absolute;
     top: 30%;
     left: 30%;
-    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
-    hue-rotate(13deg) brightness(104%) contrast(118%);
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%) hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 .hc-logo {
@@ -594,8 +648,7 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
-    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
-    hue-rotate(13deg) brightness(104%) contrast(118%);
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%) hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 .lp-logo {
@@ -604,8 +657,7 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
-    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
-    hue-rotate(13deg) brightness(104%) contrast(118%);
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%) hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 .cco-logo {
@@ -614,8 +666,7 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     top: 30%;
     left: 30%;
-    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%)
-    hue-rotate(13deg) brightness(104%) contrast(118%);
+    filter: brightness(0) saturate(100%) invert(101%) sepia(20%) saturate(174%) hue-rotate(13deg) brightness(104%) contrast(118%);
 }
 
 /* <!--  regole corpo Dropbox nella tua azienda --> */
@@ -640,8 +691,9 @@ border: 10px solid #d1e9cd ;
     font-size: 20px;
 
 }
-.azienda-main-title{
-    color:#61082b ;
+
+.azienda-main-title {
+    color: #61082b;
 }
 
 .azienda-button {
@@ -649,29 +701,27 @@ border: 10px solid #d1e9cd ;
     position: absolute;
     right: 25%;
 }
-.azienda-button-item{
+
+.azienda-button-item {
     width: 200px;
     height: 40px;
     margin-bottom: 30px;
-    border:#0061ff ;
-    background-color: #0061ff;
-    color: white;
-    font-size: 15px;    
+    border: #0061ff;
+    background-color: #f9fafc;
+    color: rgb(10, 10, 10);
+    font-size: 15px;
 }
 
 /* <!--regole corpo domande frequenti --> */
 .frequent-questins {
     width: 55%;
-
     margin: 0 auto;
-
 }
 
 .faq-col {
     margin-top: 150px;
     font-size: 20px;
     list-style-type: none;
-
 }
 
 .faq-li-item {
@@ -679,11 +729,13 @@ border: 10px solid #d1e9cd ;
     border-bottom: solid 1px black;
     position: relative;
 }
-.fa-chevron-down{
-position: absolute;
-right: 50px;
-font-size: 15px;
+
+.fa-chevron-down {
+    position: absolute;
+    right: 50px;
+    font-size: 15px;
 }
+
 /* <!--regole copro lista interattiva Dropbox --> */
 footer {
     height: 600px;
@@ -691,27 +743,30 @@ footer {
     margin-top: 150px;
     color: white;
     font-size: 20px;
-    
-   
 }
-.iteract-container{
+
+.iteract-container {
     width: 80%;
-    margin: 0 auto ;
- display: flex;
- justify-content: center;
- justify-content: space-evenly;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
 }
-.interact-col{  
-    padding: 100px 0;  
+
+.interact-col {
+    padding: 100px 0;
 }
-.interact-list{
+
+.interact-list {
     margin-top: 40px;
 }
-.interact-li{
-   list-style-type: none; 
-   padding: 10px 0;
+
+.interact-li {
+    list-style-type: none;
+    padding: 10px 0;
 }
-.interact-item{
+
+.interact-item {
     text-decoration: none;
-   color: white;
+    color: white;
 }

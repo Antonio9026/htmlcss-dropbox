@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -20,16 +22,19 @@
                     <img src="img/logo-small.png" alt="">
                 </div>
                 <div class="logo-text-left">
-                    <a class="h-interaction" href="">Perhè Dropbox</a>
-                    <a class="h-interaction" href="">Funzioni</a>
-                    <a class="h-interaction" href="">Piani e Prezzi</a>
+                    <a class="h-interaction" href="#">Perhè Dropbox</a>
+                    <a class="h-interaction" href="#">Funzioni</a>
+                    <a class="h-interaction" href="#">Piani e Prezzi</a>
                 </div>
             </div>
             <div class="logo-right">
+
                 <a class="h-interaction" href="">Supporto</a>
                 <a class="h-interaction" href="">Contatta l'ufficio vendite</a>
                 <a class="h-interaction" href="">Accedi</a>
-                <button>Inizia</button>
+                <div class="button-container">
+                    <button class="logo-right-button">Inizia</button>
+                </div>
             </div>
         </div>
         <!-- Titolo e jumbotron -->
@@ -48,7 +53,7 @@
                     </p>
                     <button class="j-button">Inizia la tua prova gratuita</button>
                     <p><a class="j-link" href=""> Annulla in qualsiasi momento</a></p>
-                    <i class="fa-solid fa-arrow-down"></i> 
+                    <a name="business-plan-container" href="#business-plan-container"><i class="fa-solid fa-arrow-down" ></i></a>
                 </div>
 
                 <div class="jumbotron-container-img">
@@ -71,11 +76,11 @@
 
                 <div class="invoice-container">
                     <div class="ceckbox-col">
-                        <input type="checkbox" name="Fatturazione mensile" id="">
+                        <input type="radio" name="Fatturazione mensile" id="">
                         <span class="checkbox-word">Fatturazione mensile</span>
                     </div>
                     <div class="invoice-col">
-                        <input type="checkbox" name="Fatturazione annuale" id="">
+                        <input type="radio" name="Fatturazione annuale" id="">
                         <span class="checkbox-word">Fatturazione annuale</span>
                     </div>
                 </div>
@@ -85,7 +90,7 @@
 
                 <div class="professional">
                     <div class="single-container">
-                        <i class="fa-solid fa-user"></i>
+                        <i id="singolo-font" class="fa-solid fa-user"></i>
                         <p class="single">Singolo</p>
                     </div>
                     <div class="tariff-plan">
@@ -95,21 +100,24 @@
 
                     </div>
                     <div class="offers-container">
-                        <p  class="offers-item"></i>1 utente</p>
-                        <p  class="offers-item"><i class="fa-solid fa-folder"></i>5 tb spazio di archiviazione sicuro</p>
-                        <p  class="offers-item"> <i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                        <p class="offers-item"></i><i id="offers-font" class="fa-solid fa-user"></i>1 utente</p>
+                        <p class="offers-item"><i class="fa-solid fa-folder"></i>5 tb spazio di archiviazione sicuro</p>
+                        <p class="offers-item"> <i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium
+                            e condivisione file semplice e sicura</p>
 
                     </div>
                     <div class="free-trial">
                         <button class="free-trial-button">Prova gratis per 30 giorni</button>
-                        <p class="free-trial-item" > oppure <a class="free-trial-link" href="">acquista ora</a></p>
+                        <p class="free-trial-item"> oppure <a class="free-trial-link" href="">acquista ora</a></p>
                     </div>
 
                     <div class="highlights">
                         <h3>Punti salienti del piano</h3>
                         <ul class="highlights-col">
-                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox transfert</li>
-                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con
+                                Dropbox transfert</li>
+                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi
+                                mobili</li>
 
                         </ul>
 
@@ -119,7 +127,7 @@
 
                 <div class="professional">
                     <div class="single-container">
-                        <i class="fa-regular fa-users-medical"></i>
+                        <i class="fa-solid fa-people-group"></i>
                         <p class="single">Singolo</p>
                     </div>
                     <div class="tariff-plan">
@@ -129,23 +137,29 @@
 
                     </div>
                     <div class="offers-container">
-                        <p class="offers-item">1 utente</p>
-                        <p class="offers-item"> <i class="fa-solid fa-folder"></i>5 tb spazio di archiviazione sicuro</p>
-                        <p class="offers-item"> <i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                        <p class="offers-item"><i id="offers-font" class="fa-solid fa-user"></i>1 utente</p>
+                        <p class="offers-item"><i class="fa-solid fa-folder"></i>5 tb spazio di archiviazione sicuro</p>
+                        <p class="offers-item"><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e
+                            condivisione file semplice e sicura</p>
 
                     </div>
                     <div class="free-trial">
-                        <button  class="free-trial-button">Prova gratis per 30 giorni</button>
-                        <p > oppure <a class="free-trial-link" href="">acquista ora</a></p>
+                        <button class="free-trial-button">Prova gratis per 30 giorni</button>
+                        <p> oppure <a class="free-trial-link" href="">acquista ora</a></p>
                     </div>
                     <div class="highlights">
                         <h3 class="highlight-title">Punti salienti del piano</h3>
                         <ul class="highlights-col">
-                            <li class="highlights-item"> <i class="fa-solid fa-check"></i>Nessun limite di spazio per i file</li>
-                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
-                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole</li>
-                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Possibilità di inserire nuovi membri del team</li>
-                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Gestione dei permess in base ai ruoli</li>
+                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Nessun limite di spazio per i
+                                file</li>
+                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi
+                                mobili</li>
+                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle
+                                iscrizioni singole</li>
+                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Possibilità di inserire nuovi
+                                membri del team</li>
+                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Gestione dei permess in base ai
+                                ruoli</li>
                         </ul>
 
                     </div>
@@ -163,21 +177,25 @@
 
                     </div>
                     <div class="offers-container">
-                        <p  class="offers-item">1 utente</p>
-                        <p  class="offers-item"> <i class="fa-solid fa-folder"></i>5 tb spazio di archiviazione sicuro</p>
-                        <p  class="offers-item"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                        <p class="offers-item"><i id="offers-font" class="fa-solid fa-user"></i>1 utente</p>
+                        <p class="offers-item"> <i class="fa-solid fa-folder"></i>5 tb spazio di archiviazione sicuro
+                        </p>
+                        <p class="offers-item"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium
+                            e condivisione file semplice e sicura</p>
 
                     </div>
                     <div class="free-trial">
-                        <button  class="free-trial-button">Prova gratis per 30 giorni</button>
+                        <button class="free-trial-button">Prova gratis per 30 giorni</button>
                         <p> oppure <a class="free-trial-link" href="">acquista ora</a></p>
                     </div>
                     <div class="highlights">
                         <h3 class="highlight-title">Punti salienti del piano</h3>
                         <ul class="highlights-col">
-                            <li class="highlights-item"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                            <li class="highlights-item"><i id="offers-font" class="fa-solid fa-check"></i>Cartelle
+                                offline su dispositivi mobili</li>
                             <li class="highlights-item"><i class="fa-solid fa-check"></i>Servizio assistenza 24/h</li>
-                            <li class="highlights-item"><i class="fa-solid fa-check"></i>possibilità di personalizzazione totale</li>
+                            <li class="highlights-item"><i class="fa-solid fa-check"></i>possibilità di
+                                personalizzazione totale</li>
                         </ul>
 
                     </div>
@@ -189,7 +207,7 @@
 
             <div class="ufficio-vendite-container">
                 <div class="team-col">
-                 
+
                     <p class="team"></i>Team</p>
                 </div>
                 <div class="enterprise-container">
@@ -354,7 +372,13 @@
             <div class="designit-text-container">
                 <div class="designit-text-col ">
                     <img class="designit-trade-mark" src="img/designit.svg" alt="">
-                    <p class="trade-mark-text">"Imembri del nostro team lavorano costantemente in Paesi, fusi orari e
+                    <p class="trade-mark-text">"I membri del nostro team lavorano costantemente in Paesi, fusi orari e
+                        uffici
+                        diversi. ora mole soluzioni sono compatibili con queste esigenze, ma nessuna è fcile quamto
+                        Dropbox
+                        Paper."</p>
+                    <p class="mention">Morten Thomsen, Global IT Lead</p>
+                    <p class="trade-mark-text">"I membri del nostro team lavorano costantemente in Paesi, fusi orari e
                         uffici
                         diversi. ora mole soluzioni sono compatibili con queste esigenze, ma nessuna è fcile quamto
                         Dropbox
@@ -406,13 +430,13 @@
 
                 <li class="faq-li-item"><strong> Qual'è la differenza tra Dropbox Standard e Dropbox business
                         Advanced</strong><i class="fa-solid fa-chevron-down"></i> </li>
-                        
+
                 <li class="faq-li-item"><strong> Qual'è la differenza tra Dropbox Standard e Dropbox business
                         Advanced</strong><i class="fa-solid fa-chevron-down"></i></li>
-                       
+
                 <li class="faq-li-item"><strong> Qual'è la differenza tra Dropbox Standard e Dropbox business
                         Advanced</strong><i class="fa-solid fa-chevron-down"></i></li>
-                        
+
 
             </ul>
 
@@ -463,8 +487,8 @@
                     <li class="interact-li"><a class="interact-item" href="http://"> Perchè dropbox</a></li>
                     <li class="interact-li"><a class="interact-item" href="http://"> Piani</a></li>
                     <li class="interact-li"><a class="interact-item" href="http://"> Sicurezza</a></li>
-                    <li class="interact-li" ><a class="interact-item" href="http://"> Funzioni</a></li>
-                   
+                    <li class="interact-li"><a class="interact-item" href="http://"> Funzioni</a></li>
+
 
                 </ul>
             </div>
