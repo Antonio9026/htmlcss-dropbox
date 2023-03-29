@@ -5,6 +5,7 @@
 }
 
 body {
+   
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -72,6 +73,7 @@ body {
 
 /* regole titolo e jumbotron */
 .jumbotron-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: #b4d0e7;
@@ -232,7 +234,7 @@ body {
 #offers-font {
     position: absolute;
     left: -20px;
-    top: 55px;
+    top: 5px;
 }
 
 .fa-folder {
@@ -385,6 +387,7 @@ body {
 }
 
 /* <!--regole corpo dropbox business --> */
+
 .dropbox-business-container {
     width: 1024px;
     margin: 0 auto;
